@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build": "nativefier --name OneNote --disable-dev-tools --single-instance --tray --hide-window-frame --internal-urls 'https://(www\\.)?((onedrive|login|onenote)\\.(live|onenote)\\.com)/.*' 'https://www.onenote.com/notebooks'"
+  },
+  "dependencies": {
+    "nativefier": ""
+  }
+}

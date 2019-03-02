@@ -1,0 +1,13 @@
+.headBar {
+  visibility: hidden !important;
+  height: 0px !important;
+}
+
+iframe#sdx_ow_iframe {
+  top: -50px !important;
+  height: calc(100% + 50px) !important;
+  bottom: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+}
+
